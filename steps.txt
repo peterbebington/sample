@@ -1,0 +1,67 @@
+  453  mkdir peter
+  454  cd peter
+  455  pwd
+  456  git init
+  457  vi sample.txt
+  458  git add sample.txt 
+  459  git commit
+  460  who am i
+  461  who
+  462  git config --global user.email "peterbebi@gmail.com"
+  463  git config --global user.email "peter bebington"
+  464  git commit
+  465  git config --global user.email "peterbebi"
+  466  git commit
+  467  git config --global user.email "peterbebi@gmail.com"
+  468  git config --global user.name "peterbebi"
+  469  git commit
+  470  git status
+  471  pwd
+  472  git remote add origin https://github.com/peterbebington/hello-world.git
+  473  git remote -v
+  474  git push
+  475  git push --global push.default simple
+  476  git config --global push.default simple
+  477  git push
+  478  git push --set-upstream origin master
+  479  git pull
+  480  git push --set-upstream origin master
+  481  git pull
+  482  git remote add origin https://github.com/peterbebington/sample.git
+  483  git remote delete  origin https://github.com/peterbebington/hello-world.git
+  484  git remote remove origin https://github.com/peterbebington/hello-world.git
+  485  git remote remove "hello-world"
+  486  git remote add origin https://github.com/peterbebington/sample.git
+  487  git remove
+  488  git remote
+  489  git remote add origin https://github.com/peterbebington/sample.git
+  490  git remote remove
+  491  git remote remove sample
+  492  git remote remove master
+  493  git remote add origin https://github.com/peterbebington/sample.git
+  494  git remote remove origin
+  495  git remote add origin https://github.com/peterbebington/sample.git
+  496  git push -u origin master
+  497  pwd
+  498  cd ../..
+  499  cd ..
+  500  find . -name "*.jpeg"
+  501  find . -name "*.jpeg" 2> NULL
+  502  find . -name "*.jpeg"
+  503  find . -name "*.gif"
+  504  cd 
+  505  cd peter/
+  506  ls
+  507  cp https://github.com/peterbebington/sample/blob/master/sample.txt .
+  508  cp ./usr/share/greenfoot/images/leftarrow.gif .
+  509  cp /usr/share/greenfoot/images/leftarrow.gif .
+  510  ls
+  511  git add leftarrow.gif 
+  512  git commit -m "Adding a picture"
+  513  git push -u origin master
+  514  cp /usr/share/doc/python-pygame/tut/intro/ball.gif .
+  515  git add ball.gif 
+  516  git commit -m "Adding a picture 2"
+  517  git push -u origin master
+  518  history
+
